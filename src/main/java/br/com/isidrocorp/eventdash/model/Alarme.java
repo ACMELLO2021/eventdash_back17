@@ -11,7 +11,7 @@ import javax.persistence.Table;
 @Table(name = "itmn_alarme")
 public class Alarme {
 	
-	@Id
+	@Id  // indica que é PK
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id_alarme")
 	private int id;
